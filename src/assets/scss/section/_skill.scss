@@ -1,0 +1,38 @@
+#skill {
+    height: 100vh;
+}
+
+.skill__inner {
+    padding: 68px 16px;
+    
+    display: flex;
+    flex-direction: column;
+    @media (max-width: 800px){ 
+        flex-direction: column;
+    }
+
+    .skill__title {
+        @include title-position;
+    }
+
+    .container {
+
+        p {}
+
+        .skill-container {
+            background-color: rgb(255, 255, 255);
+            border: 1px solid var(--subBg300);
+            border-radius: 1px;
+            
+            .skill {
+                text-align: right;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-right: 8px;
+                color: white;
+                border-radius: 1px;
+                background: linear-gradient(90deg, rgba(66,71,206,1) 0%, rgba(66,71,206,0.24016563146997927) 100%);
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+// 상단 고정
+@mixin position-fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+// 양쪽 정렬 
+@mixin flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+// 가운데 정렬 
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// 타이틀 위치 적용 
+@mixin title-position {
+    text-align: center; 
+    z-index: 300;
+    height: 10vh;
+    font-size: 4vw;
+    font-weight: 900;
+    line-height: 1.6;
+    font-family: var(--mainKor-font);
+    text-transform: uppercase;
+    color: var(--black100);
+    padding-bottom: 20vh;
+}

@@ -1,0 +1,44 @@
+#contact {
+    height: 40vh;
+}
+.contact__inner {
+    width: 100%;
+    height: 100%;
+   
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+
+    @media (max-width: 800px){ 
+        justify-content: center;
+    }
+
+    
+    .contact__text {
+        width: 100%;
+        height: 40vh;
+        background-color: var(--black);
+        color: var(--white);
+        @include flex-center;
+        position: relative;
+
+        .text a {
+            font-size: 3vw;
+            line-height: 1;
+            font-weight: 900;
+            text-transform: uppercase;
+            text-decoration: underline;
+            text-align: center;
+            position: relative;
+            z-index: 100;
+            padding: 0 16px;
+            transition: all 0.3s;
+
+            @media (max-width: 800px){ 
+                font-size: 24px;
+                word-break: break-all;
+            }
+        }
+    }
+}
