@@ -112,7 +112,7 @@ export const skillText = [
   },
   {
     title: "CSS",
-    per: "80%",
+    per: "85%",
   },
   {
     title: "JAVASCRIPT",
@@ -136,7 +136,11 @@ export const skillText = [
   },
   {
     title: "PHP",
-    per: "50%",
+    per: "65%",
+  },
+  {
+    title: "SPRING",
+    per: "20%",
   },
 ];
 
