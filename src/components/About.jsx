@@ -18,7 +18,7 @@ const About = () => {
             <div className="aboutme_rect">
                 <div className="rectIn">
                     <div className="profile">
-                        <img src={seolhwa}/>
+                        <img src={seolhwa} alt="seolhwa"/>
                     </div>
                     <ul>
                         {aboutText.map((about, key) => (
