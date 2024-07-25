@@ -8,5 +8,7 @@
 
 ## 화면
 <img src="src/assets/img/mdImg/about.png" width="600">
+<br>
 <img src="src/assets/img/mdImg/skill.png" width="600">
+<br>
 <img src="src/assets/img/mdImg/project.png" width="600">
